@@ -95,7 +95,7 @@ class App:
 
         self.root = tk.Tk()
 
-        self.root.title("External Keystrokes")
+        self.root.title("Triggerbot Detector")
 
         self.root.overrideredirect(True)
 
@@ -142,9 +142,9 @@ class App:
         )
 
         self._tray = pystray.Icon(
-            "ExternalKeystrokes",
+            "Triggerbot Detector",
             self._make_tray_icon(),
-            "External Keystrokes",
+            "Triggerbot Detector",
             menu
         )
 
@@ -287,7 +287,7 @@ class App:
         cv.create_text(
             W//2,
             55,
-            text="External Keystrokes",
+            text="Triggerbot Detector",
             font=(FONT, 22, "bold"),
             fill=WHITE
         )
@@ -295,7 +295,7 @@ class App:
         cv.create_text(
             W//2,
             88,
-            text="Works On Every Game",
+            text="End Of Triggerbot Users Works On Every Game",
             font=(FONT, 11),
             fill="#00ff9c"
         )
@@ -421,7 +421,7 @@ class App:
 
         self.start_btn = tk.Label(
             self.root,
-            text="START OVERLAY",
+            text="START",
             bg=self.theme_color,
             fg=BG,
             font=(FONT, 13, "bold"),
@@ -468,7 +468,7 @@ class App:
         cv.create_text(
             W//2,
             H-35,
-            text="made by r3mu",
+            text="MADE BY R3MU",
             font=(FONT, 10),
             fill=DIM
         )
