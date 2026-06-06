@@ -1,4 +1,4 @@
-# CPS Counter — by r3mu
+# Triggerbot Detector Aka Externel Keystrokes By R3MU
 
 <div align="center">
 
